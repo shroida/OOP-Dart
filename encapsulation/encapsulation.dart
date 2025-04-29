@@ -1,3 +1,5 @@
+import 'clsCar.dart';
+
 void main() {
   // Create a regular car
   final myCar = Car(
@@ -8,7 +10,6 @@ void main() {
     color: 'Blue',
     mileage: 15000,
   );
-  myCar.generateId();
 
   myCar.printCarData();
 }
