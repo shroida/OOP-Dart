@@ -1,16 +1,9 @@
-import 'clsCar.dart';
+import 'clsBank.dart';
 
 void main() {
-  // Create a regular car
-  final myCar = Car(
-    name: 'Toyota',
-    model: 'Camry',
-    year: 2020,
-    price: 25000,
-    color: 'Blue',
-    mileage: 15000,
-  );
-  myCar.setWheel = 2;
-  print(myCar.getWheel);
-  myCar.printCarData();
+  var account = BankAccount("123456", "Shroida", 1000);
+
+  account.deposit(500);
+  account.withdraw(2000);
+  print(account.balance);
 }
