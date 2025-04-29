@@ -25,7 +25,7 @@ class Car {
     this.features,
   });
 
-  set wheel(int numberOfWheels) {
+  set setWheel(int numberOfWheels) {
     if (numberOfWheels <= 4 && numberOfWheels >= 2) {
       _wheels = numberOfWheels;
     } else {
