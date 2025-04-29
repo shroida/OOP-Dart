@@ -11,5 +11,6 @@ void main() {
     mileage: 15000,
   );
   myCar.setWheel = 2;
+  print(myCar.getWheel);
   myCar.printCarData();
 }

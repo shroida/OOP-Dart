@@ -33,6 +33,7 @@ class Car {
     }
   }
 
+  get getWheel => this._wheels;
   // Public methods
   void printCarData() {
     print('Car Details:');
