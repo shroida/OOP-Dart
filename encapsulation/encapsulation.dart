@@ -10,6 +10,6 @@ void main() {
     color: 'Blue',
     mileage: 15000,
   );
-
+  myCar.wheel = 2;
   myCar.printCarData();
 }
